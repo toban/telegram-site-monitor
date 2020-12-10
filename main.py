@@ -27,7 +27,7 @@ logging.basicConfig(filename=Setup.config['logfile'], format='%(asctime)s - %(na
 
 bot = Bot(Setup.config['manager_bot'])
 logger = logging.getLogger('Main')
-sleep_seconds = 10
+sleep_seconds = 60*60
 wait_for_element_seconds = 10
 sitename = 'kmplx'
 
