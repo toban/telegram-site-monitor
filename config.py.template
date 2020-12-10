@@ -1,6 +1,5 @@
 def foo(webdriver):
 		element = webdriver.find_element_by_id("uc-btn-accept-banner")
-		element.click()
 
 class Setup:
 
@@ -8,11 +7,12 @@ class Setup:
 		"chat_id": ,
 		"manager_bot": '',
 		"manager_bot_name": '',
+		"logfile": '',
 
 		"sites": {
-			"immosolve": {
-				"step": foo,
-				"url": ''
+			"some_website": {
+				"step": foo, # steps do run before screenshot
+				"url": '<url>'
 			},
 		}
 	}
