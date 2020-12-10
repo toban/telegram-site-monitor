@@ -1,0 +1,18 @@
+def foo(webdriver):
+		element = webdriver.find_element_by_id("uc-btn-accept-banner")
+		element.click()
+
+class Setup:
+
+	config = {
+		"chat_id": ,
+		"manager_bot": '',
+		"manager_bot_name": '',
+
+		"sites": {
+			"immosolve": {
+				"step": foo,
+				"url": ''
+			},
+		}
+	}
