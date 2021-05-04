@@ -12,7 +12,8 @@ class Setup:
 		"sites": {
 			"some_website": {
 				"step": foo, # steps do run before screenshot
-				"url": '<url>'
+				"url": '<url>',
+				"takePicture": False,
 			},
 		}
 	}
