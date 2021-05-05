@@ -28,7 +28,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 bot = Bot(Setup.config['manager_bot'])
 logger = logging.getLogger('Main')
 sleep_seconds = 60*60
-wait_for_element_seconds = 1
+wait_for_element_seconds = 10
 
 while True:
 
